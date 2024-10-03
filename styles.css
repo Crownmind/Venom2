@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif; /* Marvel-themed font */
+    background-image: url('64.jpg');
+    background-size: 390px 100%;
+    background-repeat: no-repeat;
+    background-color: #1C1C1C; /* Deep Charcoal for full background */
+}
+
+.container {
+    text-align: center;
+    color: #FFDD00; /* Heroic Yellow for text */
+    padding-top: 50px;
+}
+
+.main-title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ED1D24; /* Vibrant Red for tagline */
+}
+
+.buttons-section {
+    margin-top: 80px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF1E00; /* Heroic Red */
+    border: 2px solid #FECD1A; /* Gold Accent */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #0B3D91; /* Heroic Blue on hover */
+}
